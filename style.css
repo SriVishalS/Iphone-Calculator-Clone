@@ -1,0 +1,82 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.outercontainer{
+    border: 7px solid grey;
+    height: 600px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewcontainer{
+    height: 30%;
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.keypadcontainer{
+    height: 70%;
+    width: 90%;
+}
+
+.keypadgrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+.calculatorbutton{
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.key{
+    width: 60px;
+    height: 60px;
+}
+/*  */
+.zerokey{
+    width: 135px;
+    height: 60px;
+
+    text-align: left;
+    padding-left: 20px;
+}
+
+.orangestyle{
+    background-color: rgb(158, 114, 33);
+    font-size: 40px;
+}
+
+.greystyle{
+    background-color: rgb(44, 43, 43);
+}
+
+.silverstyle{
+    background-color: grey;
+}
